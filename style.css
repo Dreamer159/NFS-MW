@@ -51,6 +51,17 @@
     transition: all 0.5s;
 }
 
+.close_english:before {
+    color: rgba(92, 92, 92, 0.9);
+    content: "Got you";
+    font-family:  Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+    transition: all 0.5s;
+}
+
 header{
 	background-color: #2F1D1F;
 	height: 40px;
@@ -120,6 +131,13 @@ header{
 
 .menu li:hover ul{
 	display: block;
+}
+
+.language{
+	font-size: 30px;
+	position: absolute;
+	top: 20%;
+	left:95%;
 }
 
 a{
